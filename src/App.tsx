@@ -1,7 +1,7 @@
-import Like from "./components/ListGroup/Like";
+import { Button } from "@chakra-ui/react";
 
 function App() {
-    return <Like OnClick={() => console.log("clicked")} />;
+    return <Button colorPalette="blue">Solid</Button>;
 }
 
 export default App;
